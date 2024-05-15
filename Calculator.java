@@ -1,11 +1,11 @@
 //Java-Projects
-//Java Simple Calculator
+//Java Simple Calculator I am testing the git here
 import Java.util.*; // importing the util package which 
 public class Calculator{
   public static void main(String[]args){
     double a, b, result;
     char ArithmeticSymbol;
-    Scanner CalculatorObject = new Calculator(System.in);
+    Scanner CalculatorObject = new Scanner(System.in);
     System.out.println("Enter the first number : ");
     a=CalculatorObject.nextDouble();
     System.out.println("Enter the first number : ");
